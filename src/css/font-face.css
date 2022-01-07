@@ -1,0 +1,30 @@
+@font-face {
+    font-family: pfont;
+    src: url('./fonts/oet/Hinted/Pfont-Regular.eot');
+    src: url('./fonts/oet/Hinted/Pfont-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/woff2/Hinted/Pfont-Regular.woff2') format('woff2'),
+         url('./fonts/woff/Hinted/Pfont-Regular.woff') format('woff'),
+         url('./fonts/ttf/Hinted/Pfont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: pfont;
+    src: url('./fonts/oet/Hinted/Pfont-Bold.eot');
+    src: url('./fonts/oet/Hinted/Pfont-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/woff2/Hinted/Pfont-Bold.woff2') format('woff2'),
+         url('./fonts/woff/Hinted/Pfont-Bold.woff') format('woff'),
+         url('./fonts/ttf/Hinted/Pfont-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: pfont;
+    src: url('./fonts/oet/Hinted/Pfont-Light.eot');
+    src: url('./fonts/oet/Hinted/Pfont-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/woff2/Hinted/Pfont-Light.woff2') format('woff2'),
+         url('./fonts/woff/Hinted/Pfont-Light.woff') format('woff'),
+         url('./fonts/ttf/Hinted/Pfont-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

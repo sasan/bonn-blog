@@ -1,6 +1,7 @@
 /* CSS Custom Properties Definitions */
 
 :root {
+  direction: rtl;
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
@@ -76,9 +77,26 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body,p,h1,h2,h3,h4,h5,h6,span,div,a,li,ul{
+  font-family: 'pfont' !important;
+}
+
+/* .blog-post h1{
+  color:#ccc;
+}
+
+.global-header h1 a{
+  color:#fff;
+}
+span,p{
+  color:#fff;
+} */
 
 body {
-  font-family: var(--font-body);
+  /* background-color: #000; */
+  /* color:#fff; */
+  font-weight: bold;
+  /* font-family: var(--font-body); */
   font-size: var(--fontSize-1);
   color: var(--color-text);
 }
@@ -101,7 +119,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
+  /* font-family: var(--font-heading); */
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
@@ -282,7 +300,7 @@ a:focus {
 
 .header-link-home {
   font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
+  /* font-family: var(--font-heading); */
   text-decoration: none;
   font-size: var(--fontSize-2);
 }
@@ -310,7 +328,7 @@ a:focus {
 
 .blog-post header p {
   font-size: var(--fontSize-2);
-  font-family: var(--font-heading);
+  /* font-family: var(--font-heading); */
 }
 
 .blog-post-nav ul {
