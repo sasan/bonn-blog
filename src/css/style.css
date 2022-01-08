@@ -80,21 +80,69 @@ html {
 body,p,h1,h2,h3,h4,h5,h6,span,div,a,li,ul{
   font-family: 'pfont' !important;
 }
-
-/* .blog-post h1{
-  color:#ccc;
+.header-link-home{
+  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color:#F58B54;
 }
-
+.main-heading a{
+  color:#F58B54 !important;
+  font-family:   Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.blog-post h1{
+  color:#EEEEEE;
+}
+.post-list-item header small{
+  color:#ccc;
+  font-family:   Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
 .global-header h1 a{
-  color:#fff;
+  color:#EEEEEE;
 }
 span,p{
-  color:#fff;
-} */
+  color:#EEEEEE;
+}
 
+.post-list-item section p{
+  text-align: justify;
+}
+
+.global-wrapper main a{
+  font-family:pfont !important;
+  color:#F58B54;
+}
+.global-wrapper footer{
+  font-family:   Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color:#F58B54;
+  direction: ltr;
+}
+.blog-post-nav ul li a{
+  font-family: pfont !important;
+}
+
+.blog-post p{
+  font-family: pfont !important;
+}
+.global-wrapper .global-header .header-link-home{
+  font-family:   Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;  
+}
+.more-link{
+  font-family:   Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 body {
-  /* background-color: #000; */
-  /* color:#fff; */
+  background-color: #0F0E0E;
+  color:#EEEEEE;
   font-weight: bold;
   /* font-family: var(--font-body); */
   font-size: var(--fontSize-1);
